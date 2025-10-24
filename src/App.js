@@ -1,8 +1,9 @@
 
-import './App.css';
-import Main from './Main.js';
-import Footer from './Footer.js';
-import Header from './Header.js';
+import './App.css'
+import Main from './Main';
+import Footer from './Footer';
+import Header from './Header';
+
 
 function App() {
   return (
