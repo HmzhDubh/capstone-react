@@ -1,4 +1,5 @@
-import logo from './Logo.png';
+import { Link } from 'react-router-dom';
+import logo from '../Logo.png';
 function Header() {
 
   return (
@@ -8,12 +9,12 @@ function Header() {
         <ul>
 
           <li>
-            <a>Home</a>
+            <Link to='/'>Home</Link>
           </li>
 
           <li>
 
-            <a>About</a>
+            <Link to='/#about'>About</Link>
           </li>
           <li>
 
@@ -21,7 +22,7 @@ function Header() {
           </li>
           <li>
 
-            <a>Resevations</a>
+            <Link to="/booking">Resevations</Link>
           </li>
           <li>
 
